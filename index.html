@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <img src="detran-mg.jpg" alt="detran">
+</header>
+<body>
+    <div class="container">
+        <h1>Bem vindo ao nosso Site</h1>
+        <button type="submit" class="btn">Entrar</button>
+    </div>
+    <div class="popup-container active">
+        <h4>Sistema SRPR</h4>
+        <label for="email">Seu email</label>
+        <input type="email" name="email" class="input" placeholder="Digite seu email">
+        <button type="submit" class="popup-btn">Entre</button>
+        <div class="close-icon">
+            <i class="fas fa-times fa-2x"></i>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
